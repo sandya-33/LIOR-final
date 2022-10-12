@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="filtering_irl" type="filtering_irl_PointCloud_Filter" name="realtime_dror" output="screen"/>
+    <arg name="_in" default="/launch/value/pointcloud2"/>
+    <arg name="_angle_res" default="12.07"/>
+    
+</launch>

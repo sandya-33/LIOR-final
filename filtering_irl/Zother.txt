@@ -1,0 +1,87 @@
+{
+	"active" : [],
+	"log" : 
+	[
+		{
+			"active" : true,
+			"category" : "UDP_TRANSMISSION",
+			"cursor" : 0,
+			"id" : "0x01000018",
+			"level" : "WARNING",
+			"msg" : "Client machine announced it is not reachable on the provided not reachable on IMU data port; check that udp_dest and udp_port_imu configured on the sensor matches client IP and port.",
+			"msg_verbose" : "Failed to send imu UDP data to destination host 192.168.74.174:47333",
+			"realtime" : "36079267631"
+		},
+		{
+			"active" : true,
+			"category" : "UDP_TRANSMISSION",
+			"cursor" : 1,
+			"id" : "0x01000015",
+			"level" : "WARNING",
+			"msg" : "Client machine announced it is not reachable on the provided lidar data port; check that udp_dest and udp_port_lidar configured on the sensor matches client IP and port.",
+			"msg_verbose" : "Failed to send lidar UDP data to destination host 192.168.74.174:36014",
+			"realtime" : "37069808880"
+		},
+		{
+			"active" : true,
+			"category" : "INTERNAL_FAULT",
+			"cursor" : 2,
+			"id" : "0x0100005d",
+			"level" : "WARNING",
+			"msg" : "Internal fault detected; unit going to error stop state.",
+			"msg_verbose" : "",
+			"realtime" : "95489381966"
+		},
+		{
+			"active" : true,
+			"category" : "INTERNAL_FAULT",
+			"cursor" : 3,
+			"id" : "0x01000062",
+			"level" : "ERROR",
+			"msg" : "Unit has experienced an internal error; please contact Ouster at https://ouster.com/tech-support.",
+			"msg_verbose" : "",
+			"realtime" : "95490801397"
+		},
+		{
+			"active" : false,
+			"category" : "UDP_TRANSMISSION",
+			"cursor" : 4,
+			"id" : "0x01000015",
+			"level" : "WARNING",
+			"msg" : "Client machine announced it is not reachable on the provided lidar data port; check that udp_dest and udp_port_lidar configured on the sensor matches client IP and port.",
+			"msg_verbose" : "Cleared by reinitialization.",
+			"realtime" : "95549624807"
+		},
+		{
+			"active" : false,
+			"category" : "UDP_TRANSMISSION",
+			"cursor" : 5,
+			"id" : "0x01000018",
+			"level" : "WARNING",
+			"msg" : "Client machine announced it is not reachable on the provided not reachable on IMU data port; check that udp_dest and udp_port_imu configured on the sensor matches client IP and port.",
+			"msg_verbose" : "Cleared by reinitialization.",
+			"realtime" : "95549993490"
+		},
+		{
+			"active" : false,
+			"category" : "INTERNAL_FAULT",
+			"cursor" : 6,
+			"id" : "0x0100005d",
+			"level" : "WARNING",
+			"msg" : "Internal fault detected; unit going to error stop state.",
+			"msg_verbose" : "Cleared by reinitialization.",
+			"realtime" : "95550362173"
+		},
+		{
+			"active" : false,
+			"category" : "INTERNAL_FAULT",
+			"cursor" : 7,
+			"id" : "0x01000062",
+			"level" : "ERROR",
+			"msg" : "Unit has experienced an internal error; please contact Ouster at https://ouster.com/tech-support.",
+			"msg_verbose" : "Cleared by reinitialization.",
+			"realtime" : "95550601818"
+		}
+	],
+	"next_cursor" : 8
+}
