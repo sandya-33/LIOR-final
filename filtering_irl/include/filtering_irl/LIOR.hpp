@@ -46,7 +46,10 @@ namespace pcl {
                 Ithr=0.f;
             }
 
-            if((*input_)[pid].intensity < Ithr) {
+            if((*input_)[pid].intensity > Ithr) {
+                is_outlier[pid] = false;
+            }
+            else{
                 is_outlier[pid] = true;
                 int nbrs = kdTree_.radiusSearch((*input_)[pid], 0.1, k_indices, k_distances);
 
